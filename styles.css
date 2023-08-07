@@ -28,6 +28,7 @@ a:hover{
 .center-pg{ 
     display: flex; 
     justify-content: center; 
+    align-items: center;
 }
 
 .input{ 
@@ -50,7 +51,97 @@ a:hover{
     background-repeat: no-repeat;
     font-size: 14px;
     padding-left: 50px;
-    
-
 }
 
+.buttons{ 
+    display: flex; 
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none; 
+}
+
+.buttons:hover { 
+    border: 1px solid lightgray;
+}
+
+.google-link{ 
+    display: flex; 
+    flex-direction: row;  
+    list-style-type: none; 
+    justify-content: flex-end; 
+    font-size: 14px; 
+    margin: 10px; 
+}
+
+.p-advanced{ 
+    color: #d93025;
+    font-size: 20px;
+    margin-top: 75px; 
+    margin-left: 25px; 
+    font-family: arial,sans-serif;
+}
+
+.cont-advanced{ 
+    margin-top: 75px; 
+    margin-left: 25px;
+}
+
+.p2-advanced{ 
+    font-size: 16px; 
+    font-family: arial, sans-serif; 
+    color: #222;
+}
+
+.line{ 
+    border-bottom: 1px solid #ebebeb;
+}
+
+.row-input{ 
+    display: flex; 
+    flex-direction: row;
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.left{ 
+    width: 200px; 
+}
+
+.right{ 
+    width: 550px; 
+}
+
+.text-label{ 
+    font-size: 13px; 
+    vertical-align: middle; 
+}
+
+.advanced-button { 
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+.advanced-button:hover {
+    background-color: #4d90fe;
+    color: #fff; 
+}
+
+.button-div{ 
+    display: flex; 
+    justify-content: flex-end;
+    width: 750px;
+    margin-top: 35px; 
+}
