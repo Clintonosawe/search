@@ -3,6 +3,7 @@
     flex-direction: row;  
     list-style-type: none; 
     justify-content: flex-end; 
+    margin-bottom: 165px; 
     
 }
 
@@ -22,4 +23,9 @@ a:link, a:visited, a:active {
 
 a:hover{ 
     text-decoration: underline; 
+}
+
+.center-pg{ 
+    display: flex; 
+    justify-content: center; 
 }
